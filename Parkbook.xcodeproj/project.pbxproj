@@ -14,6 +14,17 @@
 		0122AB611ADAB97900A621C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0122AB601ADAB97900A621C4 /* Images.xcassets */; };
 		0122AB641ADAB97900A621C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0122AB621ADAB97900A621C4 /* LaunchScreen.xib */; };
 		0122AB701ADAB97900A621C4 /* ParkbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122AB6F1ADAB97900A621C4 /* ParkbookTests.swift */; };
+		0122AB7D1ADABBB700A621C4 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122AB7A1ADABBB700A621C4 /* TwitterKit.framework */; };
+		0122AB7E1ADABBB700A621C4 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0122AB7B1ADABBB700A621C4 /* TwitterKitResources.bundle */; };
+		0122AB7F1ADABBB700A621C4 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122AB7C1ADABBB700A621C4 /* Fabric.framework */; };
+		0122AB811ADAC67500A621C4 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122AB801ADAC67500A621C4 /* CommentsViewController.swift */; };
+		01C7A3951ADAEB0C00099A92 /* MapboxGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7A3941ADAEB0C00099A92 /* MapboxGL.framework */; };
+		01C7A39A1ADAEEA300099A92 /* MapboxGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7A3941ADAEB0C00099A92 /* MapboxGL.framework */; };
+		01C7A39B1ADAEEA300099A92 /* MapboxGL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7A3941ADAEB0C00099A92 /* MapboxGL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01C7A39E1ADAF07500099A92 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7A39D1ADAF07500099A92 /* CoreLocation.framework */; };
+		01C7A3A01ADAF07C00099A92 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7A39F1ADAF07C00099A92 /* CoreBluetooth.framework */; };
+		01C7A3A81ADB03CD00099A92 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7A3A71ADB03CD00099A92 /* BeaconManager.swift */; };
+		01C7A3AA1ADB071500099A92 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01C7A3A91ADB071500099A92 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +36,20 @@
 			remoteInfo = Parkbook;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01C7A39C1ADAEEA300099A92 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01C7A39B1ADAEEA300099A92 /* MapboxGL.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0122AB521ADAB97900A621C4 /* Parkbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +63,16 @@
 		0122AB691ADAB97900A621C4 /* ParkbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0122AB6E1ADAB97900A621C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0122AB6F1ADAB97900A621C4 /* ParkbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkbookTests.swift; sourceTree = "<group>"; };
+		0122AB7A1ADABBB700A621C4 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		0122AB7B1ADABBB700A621C4 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		0122AB7C1ADABBB700A621C4 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		0122AB801ADAC67500A621C4 /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		01C7A3941ADAEB0C00099A92 /* MapboxGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapboxGL.framework; sourceTree = "<group>"; };
+		01C7A3961ADAEBAD00099A92 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		01C7A39D1ADAF07500099A92 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		01C7A39F1ADAF07C00099A92 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		01C7A3A71ADB03CD00099A92 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		01C7A3A91ADB071500099A92 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C7A3A01ADAF07C00099A92 /* CoreBluetooth.framework in Frameworks */,
+				01C7A39E1ADAF07500099A92 /* CoreLocation.framework in Frameworks */,
+				01C7A39A1ADAEEA300099A92 /* MapboxGL.framework in Frameworks */,
+				0122AB7D1ADABBB700A621C4 /* TwitterKit.framework in Frameworks */,
+				0122AB7F1ADABBB700A621C4 /* Fabric.framework in Frameworks */,
+				01C7A3951ADAEB0C00099A92 /* MapboxGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,12 @@
 		0122AB491ADAB97900A621C4 = {
 			isa = PBXGroup;
 			children = (
+				01C7A39F1ADAF07C00099A92 /* CoreBluetooth.framework */,
+				01C7A39D1ADAF07500099A92 /* CoreLocation.framework */,
+				01C7A3941ADAEB0C00099A92 /* MapboxGL.framework */,
+				0122AB7A1ADABBB700A621C4 /* TwitterKit.framework */,
+				0122AB7B1ADABBB700A621C4 /* TwitterKitResources.bundle */,
+				0122AB7C1ADABBB700A621C4 /* Fabric.framework */,
 				0122AB541ADAB97900A621C4 /* Parkbook */,
 				0122AB6C1ADAB97900A621C4 /* ParkbookTests */,
 				0122AB531ADAB97900A621C4 /* Products */,
@@ -82,10 +129,14 @@
 				0122AB571ADAB97900A621C4 /* AppDelegate.swift */,
 				0122AB591ADAB97900A621C4 /* FirstViewController.swift */,
 				0122AB5B1ADAB97900A621C4 /* SecondViewController.swift */,
+				0122AB801ADAC67500A621C4 /* CommentsViewController.swift */,
 				0122AB5D1ADAB97900A621C4 /* Main.storyboard */,
 				0122AB601ADAB97900A621C4 /* Images.xcassets */,
+				01C7A3961ADAEBAD00099A92 /* Bridging-Header.h */,
 				0122AB621ADAB97900A621C4 /* LaunchScreen.xib */,
 				0122AB551ADAB97900A621C4 /* Supporting Files */,
+				01C7A3A71ADB03CD00099A92 /* BeaconManager.swift */,
+				01C7A3A91ADB071500099A92 /* Info.plist */,
 			);
 			path = Parkbook;
 			sourceTree = "<group>";
@@ -125,6 +176,8 @@
 				0122AB4E1ADAB97900A621C4 /* Sources */,
 				0122AB4F1ADAB97900A621C4 /* Frameworks */,
 				0122AB501ADAB97900A621C4 /* Resources */,
+				0122AB791ADABB9B00A621C4 /* ShellScript */,
+				01C7A39C1ADAEEA300099A92 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +217,11 @@
 				TargetAttributes = {
 					0122AB511ADAB97900A621C4 = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0122AB681ADAB97900A621C4 = {
 						CreatedOnToolsVersion = 6.3;
@@ -195,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0122AB7E1ADABBB700A621C4 /* TwitterKitResources.bundle in Resources */,
 				0122AB5F1ADAB97900A621C4 /* Main.storyboard in Resources */,
 				0122AB641ADAB97900A621C4 /* LaunchScreen.xib in Resources */,
+				01C7A3AA1ADB071500099A92 /* Info.plist in Resources */,
 				0122AB611ADAB97900A621C4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,13 +270,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0122AB791ADABB9B00A621C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 373eaafea00efc7fe0fe7a2a1378e268ca08d129 b4168fed4dd4823c32eda2d0c21698deb1fdea451780b7b87d7279133f09fa8f";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0122AB4E1ADAB97900A621C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0122AB811ADAC67500A621C4 /* CommentsViewController.swift in Sources */,
 				0122AB5C1ADAB97900A621C4 /* SecondViewController.swift in Sources */,
 				0122AB581ADAB97900A621C4 /* AppDelegate.swift in Sources */,
+				01C7A3A81ADB03CD00099A92 /* BeaconManager.swift in Sources */,
 				0122AB5A1ADAB97900A621C4 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,9 +424,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Parkbook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kris/dev/dev4outdoors/Parkbook/Parkbook/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -356,9 +439,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Parkbook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kris/dev/dev4outdoors/Parkbook/Parkbook/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +503,7 @@
 				0122AB751ADAB97900A621C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0122AB761ADAB97900A621C4 /* Build configuration list for PBXNativeTarget "ParkbookTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +512,7 @@
 				0122AB781ADAB97900A621C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
